@@ -25,7 +25,6 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         tvWelcome = findViewById(R.id.tv_welcome);
-        btnLogout = findViewById(R.id.btn_logout);
 
         FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
         if (currentUser != null) {
@@ -39,14 +38,8 @@ public class HomeActivity extends AppCompatActivity {
         } else {
             tvWelcome.setText("Welcome!");
         }
-
-        btnLogout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                logoutUser();
-            }
-        });
     }
+
 
     private void retrieveUsernameFromFirestore(FirebaseUser currentUser) {
         FirebaseFirestore db = FirebaseFirestore.getInstance();
@@ -64,17 +57,5 @@ public class HomeActivity extends AppCompatActivity {
                         tvWelcome.setText("Welcome!");
                     }
                 });
-    }
-
-    private void logoutUser() {
-        FirebaseAuth.getInstance().signOut();
-
-        getSharedPreferences("FinTrackPrefs", MODE_PRIVATE).edit()
-                .clear()
-                .apply();
-
-        Intent intent = new Intent(HomeActivity.this, LoginForm.class);
-        startActivity(intent);
-        finish();
     }
 }
