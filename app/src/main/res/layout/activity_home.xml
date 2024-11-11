@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@android:color/white">
 
     <!-- Main Content Area -->
 
@@ -34,33 +35,104 @@
         android:background="@android:color/darker_gray"
         android:padding="10dp">
 
-        <Button
-            android:id="@+id/btn_home"
+        <!-- Notes Button -->
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="F1" />
+            android:orientation="vertical"
+            android:gravity="center">
 
-        <Button
-            android:id="@+id/btn_profile"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="F2" />
+            <Button
+                android:background="@drawable/placeholder"
+                android:id="@+id/btn_notes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
 
-        <Button
-            android:id="@+id/btn_settings"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="F3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notes"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:gravity="center" />
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/btn_help"
+        <!-- Financial Tracker Button -->
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="F4" />
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_financial_tracker"
+                android:background="@null"
+                android:src="@drawable/rounded_button_green"
+
+                android:contentDescription="Financial Tracker" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Financial Tracker"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- AI Assistance Button -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_ai_assistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/rounded_button_green"
+                android:contentDescription="AI Assistance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AI Assistance"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Lessons & Quizzes Button -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_lessons_quizzes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/placeholder"
+                android:src="@drawable/rounded_button_green"
+                android:contentDescription="Lesson  Quizzes" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson and Quizzes"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:gravity="center" />
+        </LinearLayout>
 
     </LinearLayout>
 
