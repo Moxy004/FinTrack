@@ -1,7 +1,7 @@
 # 📊 FinTrack
 
 FinTrack is a mobile application designed to help **Senior High School
-students** manage their finances effectively.\
+students** manage their finances effectively.
 It allows users to track expenses, generate reports, learn financial
 literacy, and even take psychological and cognitive ability tests ---
 all in one app.
@@ -86,31 +86,24 @@ all in one app.
 
 ## 🎯 Roadmap
 
--   [ ] Add savings goal tracker\
--   [ ] Dark mode toggle\
--   [ ] Export reports to PDF\
+-   [ ] Add savings goal tracker
+-   [ ] Dark mode toggle
+-   [ ] Export reports to PDF
 -   [ ] Multi-language support
 
 ------------------------------------------------------------------------
 
 ## 🤝 Contributing
 
-Contributions are welcome!\
+Contributions are welcome!
 If you'd like to help improve FinTrack, fork the repo and submit a pull
 request.
 
 ------------------------------------------------------------------------
 
-## 📜 License
-
-This project is licensed under the **MIT License** -- see the
-[LICENSE](LICENSE) file for details.
-
-------------------------------------------------------------------------
-
 ## 👨‍💻 Author
 
-**Jaren Dwyane Luna**\
-- 💼 Freelance Student Developer\
-- 📚 Focused on Android Development & AI Integration\
-- 🌐 [GitHub Profile](https://github.com/your-username)
+**Jaren Dwyane Luna**
+- 💼 Freelance Student Developer
+- 📚 Focused on Android Development & AI Integration
+- 🌐 [GitHub Profile]([https://github.com/Moxy004])
