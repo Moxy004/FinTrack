@@ -31,7 +31,7 @@ all in one app.
 
 ## 🛠️ Tech Stack
 
--   **Frontend:** Android (Java/Kotlin)
+-   **Frontend:** Android (Java)
 -   **Backend:** Firebase Firestore (real-time database)
 -   **Networking:** Retrofit
 -   **Data Parsing:** Gson
