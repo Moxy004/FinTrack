@@ -36,7 +36,7 @@ all in one app.
 -   **Networking:** Retrofit
 -   **Data Parsing:** Gson
 -   **Authentication:** Firebase Authentication
--   **AI Integration:** Custom AI Assistant
+-   **AI Integration:** Groq AI
 
 ------------------------------------------------------------------------
 
