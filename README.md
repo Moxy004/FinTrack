@@ -58,7 +58,7 @@ all in one app.
 1.  Clone the repository:
 
     ``` bash
-    git clone https://github.com/your-username/fintrack.git
+    git clone https://github.com/Moxy004/fintrack.git
     cd fintrack
     ```
 
