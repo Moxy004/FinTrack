@@ -36,7 +36,7 @@ all in one app.
 -   **Networking:** Retrofit
 -   **Data Parsing:** Gson
 -   **Authentication:** Firebase Authentication
--   **AI Integration:** Custom AI Assistant
+-   **AI Integration:** GroqAI
 
 ------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ all in one app.
 1.  Clone the repository:
 
     ``` bash
-    git clone https://github.com/your-username/fintrack.git
+    git clone https://github.com/Moxy004/fintrack.git
     cd fintrack
     ```
 
@@ -107,4 +107,4 @@ request.
 **Jaren Dwyane Luna**\
 - 💼 Freelance Student Developer\
 - 📚 Focused on Android Development & AI Integration\
-- 🌐 [GitHub Profile](https://github.com/your-username)
+- 🌐 [GitHub Profile](https://github.com/Moxy004)
